@@ -1,0 +1,72 @@
+[package]
+name = "nexus"
+version = "1.0.0"
+edition = "2021"
+authors = ["Nexus Underground"]
+description = "Roblox External Overlay - DEMO"
+license = "MIT"
+
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+
+[dependencies]
+# Allocator
+mimalloc = "0.1"
+
+# GUI Framework
+eframe = { version = "0.28", default-features = false, features = ["default_fonts", "glow", "wayland", "x11"] }
+egui = "0.28"
+egui_extras = { version = "0.28", features = ["image"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+rayon = "1.10"
+ahash = "0.8"
+smallvec = "1.13"
+dashmap = "6.1"
+arc-swap = "1.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.8"
+rand = "0.8"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+open = "5"
+thiserror = "1.0"
+anyhow = "1.0"
+once_cell = "1.19"
+chrono = "0.4"
+
+# Networking & async
+reqwest = { version = "0.12", features = ["json", "stream", "blocking"] }
+tokio = { version = "1", features = ["full"] }
+url = "2.5"
+
+# Process detection and parsing
+sysinfo = "0.30"
+regex = "1.10"
+lazy_static = "1.4"
+
+# Browser automation for Cloudflare bypass
+chromiumoxide = { version = "0.7", default-features = false, features = ["tokio-runtime"] }
+futures = "0.3"
+
+# Windows APIs
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.58", features = [
+    "Win32_Foundation",
+    "Win32_System_Threading",
+    "Win32_System_Diagnostics_Debug",
+    "Win32_System_Diagnostics_ToolHelp",
+    "Win32_System_LibraryLoader",
+    "Win32_System_Memory",
+    "Win32_System_SystemServices",
+    "Win32_System_Console",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_UI_Input_KeyboardAndMouse",
+    "Win32_Graphics_Gdi",
+]}
