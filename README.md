@@ -20,8 +20,8 @@ This is the **free demo** — premium features are locked. Join the Discord for 
 | Dead-Player Filter | ✅ | ✅ |
 | Wall Check (visibility) | ❌ | ✅ |
 | Footprints & Movement Trails | ✅ | ✅ |
-| Chams (3D player fill) | ❌ | ✅ |
-| Mesh Chams | ❌ | ✅ |
+| Chams (3D player fill) | ✅ | ✅ |
+| Mesh Chams | ✅ | ✅ |
 
 ### Aimbot
 | Feature | Demo | Premium |
@@ -179,14 +179,14 @@ Settings can be changed in-game via the menu (**F1**) or by editing `config.toml
 |-----|--------|
 | **F1** | Toggle menu |
 | **F2** | Box ESP |
-| **F3** | Chams *(premium)* |
+| **F3** | Chams |
 | **F4** | Aim Assist |
 | **F5** | Camera Aim |
 | **F6** | Fly *(premium)* |
 | **F7** | Tracers |
 | **F8** | Noclip |
 | **F9** | Hitbox Mod *(premium)* |
-| **Insert** | Spinbot |
+| **Insert** | Spinbot *(premium)* |
 | **Home** | Refresh game data |
 | **End** | Save config |
 | **F12** | Exit |
@@ -210,4 +210,5 @@ For educational and research purposes only.
 ---
 
 *"My crime is that of curiosity"* — Nexus Underground
+
 
