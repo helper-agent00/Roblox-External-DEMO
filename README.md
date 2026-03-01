@@ -1,4 +1,4 @@
-﻿# Nexus Underground — Demo
+# Nexus Underground — Demo
 
 An external Roblox overlay built in Rust with a modern [egui](https://github.com/emilk/egui) interface.  
 This is the **free demo** — premium features are locked. Join the Discord for full access.
@@ -10,70 +10,70 @@ This is the **free demo** — premium features are locked. Join the Discord for 
 ## Features
 
 ### Visuals
-| Feature                                     | Demo | Premium |
-
+| Feature | Demo | Premium |
+|---|---|---|
 | Box ESP (2D bounding boxes, distance colours) | ✅ | ✅ |
-| Name Tags + Distance                          | ✅ | ✅ |
-| Tracers                                       | ✅ | ✅ |
-| Health & Armor Bars                           | ✅ | ✅ |
-| Team / Target Highlighting                    | ✅ | ✅ |
-| Dead-Player Filter                            | ✅ | ✅ |
-| Wall Check (visibility)                       | ❌ | ✅ |
-| Footprints & Movement Trails                  | ✅ | ✅ |
-| Chams (3D player fill)                        | ❌ | ✅ |
-| Mesh Chams                                    | ❌ | ✅ |
+| Name Tags + Distance | ✅ | ✅ |
+| Tracers | ✅ | ✅ |
+| Health & Armor Bars | ✅ | ✅ |
+| Team / Target Highlighting | ✅ | ✅ |
+| Dead-Player Filter | ✅ | ✅ |
+| Wall Check (visibility) | ❌ | ✅ |
+| Footprints & Movement Trails | ✅ | ✅ |
+| Chams (3D player fill) | ❌ | ✅ |
+| Mesh Chams | ❌ | ✅ |
 
 ### Aimbot
-| Feature                                    | Demo | Premium |
-
-| Aim Assist (FOV, smoothing, prediction)      | ✅ | ✅ |
-| Camera Aim                                   | ✅ | ✅ |
-| Viewport Aim                                 | ✅ | ✅ |
-| Triggerbot                                   | ❌ | ✅ |
-| Auto Reload                                  | ✅ | ✅ |
-| Mouse Silent Aim                             | ❌ | ✅ |
+| Feature | Demo | Premium |
+|---|---|---|
+| Aim Assist (FOV, smoothing, prediction) | ✅ | ✅ |
+| Camera Aim | ✅ | ✅ |
+| Viewport Aim | ✅ | ✅ |
+| Triggerbot | ❌ | ✅ |
+| Auto Reload | ✅ | ✅ |
+| Mouse Silent Aim | ❌ | ✅ |
 
 ### Movement
-| Feature                                     | Demo | Premium |
-
-| Walk Speed                                   | ✅ | ✅ |
-| Jump Power                                   | ✅ | ✅ |
-| Auto-Jump                                    | ✅ | ✅ |
-| Spinbot                                      | ❌ | ✅ |
-| Noclip                                       | ✅ | ✅ |
-| Click Teleport                               | ❌ | ✅ |
-| Waypoint                                     | ❌ | ✅ |
-| Anchor                                       | ❌ | ✅ |
-| No Fall Damage                               | ❌ | ✅ |
-| Hip Height                                   | ✅ | ✅ |
-| Void Hide                                    | ❌ | ✅ |
-| Free Camera                                  | ✅ | ✅ |
-| Fly                                          | ❌ | ✅ |
-| Vehicle Fly                                  | ❌ | ✅ |
-| Spiderman                                    | ❌ | ✅ |
+| Feature | Demo | Premium |
+|---|---|---|
+| Walk Speed | ✅ | ✅ |
+| Jump Power | ✅ | ✅ |
+| Auto-Jump | ✅ | ✅ |
+| Spinbot | ❌ | ✅ |
+| Noclip | ✅ | ✅ |
+| Click Teleport | ❌ | ✅ |
+| Waypoint | ❌ | ✅ |
+| Anchor | ❌ | ✅ |
+| No Fall Damage | ❌ | ✅ |
+| Hip Height | ✅ | ✅ |
+| Void Hide | ❌ | ✅ |
+| Free Camera | ✅ | ✅ |
+| Fly | ❌ | ✅ |
+| Vehicle Fly | ❌ | ✅ |
+| Spiderman | ❌ | ✅ |
 
 ### World
-| Feature                                  | Demo | Premium |
-
-| FOV Changer                               | ✅ | ✅ |
-| Fullbright                                | ✅ | ✅ |
-| Anti-Fog                                  | ✅ | ✅ |
-| No Shadows                                | ✅ | ✅ |
-| Brightness Control                        | ✅ | ✅ |
-| Anti-Flash                                | ✅ | ✅ |
-| Force Lighting                            | ✅ | ✅ |
-| Ambient Control                           | ✅ | ✅ |
+| Feature | Demo | Premium |
+|---|---|---|
+| FOV Changer | ✅ | ✅ |
+| Fullbright | ✅ | ✅ |
+| Anti-Fog | ✅ | ✅ |
+| No Shadows | ✅ | ✅ |
+| Brightness Control | ✅ | ✅ |
+| Anti-Flash | ✅ | ✅ |
+| Force Lighting | ✅ | ✅ |
+| Ambient Control | ✅ | ✅ |
 
 ### Combat & Misc
-| Feature                                 | Demo | Premium |
-
-| Anti-AFK                                  | ✅ | ✅ |
-| Auto-Clicker                              | ✅ | ✅ |
-| Blade Ball Auto-Parry                     | ❌ | ✅ |
-| Hitbox Expander                           | ❌ | ✅ |
-| Desync                                    | ❌ | ✅ |
-| Cosmetics (Korblox / Headless / Hide Face)| ❌ | ✅ |
-| DEX Explorer                              | ❌ | ✅ |
+| Feature | Demo | Premium |
+|---|---|---|
+| Anti-AFK | ✅ | ✅ |
+| Auto-Clicker | ✅ | ✅ |
+| Blade Ball Auto-Parry | ❌ | ✅ |
+| Hitbox Expander | ❌ | ✅ |
+| Desync | ❌ | ✅ |
+| Cosmetics (Korblox / Headless / Hide Face) | ❌ | ✅ |
+| DEX Explorer | ❌ | ✅ |
 
 ### Game Support
 Nexus auto-detects the game and applies tuned settings for:
